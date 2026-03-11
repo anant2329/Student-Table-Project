@@ -6,9 +6,9 @@ import EditStudentForm from './components/EditStudentForm';
 import './App.css';
 
 const initialStudents = [
-  { id: 1, name: 'John Doe', email: 'john@example.com', age: 22 },
-  { id: 2, name: 'Jane Smith', email: 'jane@example.com', age: 20 },
-  { id: 3, name: 'Mike Johnson', email: 'mike@example.com', age: 24 },
+  { id: 1, name: 'Anant Thakre', email: 'anant@gmail.com', age: 22 },
+  { id: 2, name: 'Santhosh G', email: 'santhosh@gmail.com', age: 20 },
+  { id: 3, name: 'Leena Chandra', email: 'leela2334@gmail.com', age: 24 },
 ];
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
   const [sortConfig, setSortConfig] = useState({ key: null, direction: 'asc' });
 
   useEffect(() => {
-    // Simulate loading
+    
     const timer = setTimeout(() => {
       setStudents(initialStudents);
       setLoading(false);
